@@ -12,15 +12,30 @@
     <main>
       <form action="https://echo.htmlacademy.ru" method="post">
         <label for="name">Имя</label>
-        <input type="text" id="name" name="name" value="Кексик">
+        <input required type="text" id="name" name="name" value="Кексик">
         <label for="password">Пароль</label>
-        <input type="password" id="password" name="password">
+        <input required type="password" id="password" name="password">
         <label><input type="checkbox" name="allow">Разрешать гладить</label>
         <div class="buttons">
+          <input type="date" name="date">
+          <label for="time">Время доставки</label>
+          <input type="time" name="time">
           <input type="submit" value="Войтdfdsscsdи">
           <input type="reset" value="Сбросить">
           <input type="button" value="Кнопка">
           <input type="image" src="enter.png" style="border: 2px solid #cccccc">
+          <input type="text" list="ordering" name="ordering">
+          <datalist id="ordering">
+            <option value="first"></option>
+            <option value="second"></option>
+            <option value="therst"></option>
+          </datalist>
+
+          
+    			<hr><hr><br>
+    		  <<button type="button"><img src="calend.jpg" title="Кнопка баттона!">  </button>
+    			<hr><br>
+    			<input type="text" required>
 
         </div>
       </form>
