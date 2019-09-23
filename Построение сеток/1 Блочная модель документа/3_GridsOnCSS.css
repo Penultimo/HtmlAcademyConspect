@@ -1,12 +1,10 @@
-.checklist {
-  display: table;
-  }
+.armorList img {
+	height: 50px;
+}
 
- .LoremTable li{
- 	display: table;
- }
-
-
+img {
+	height: 50px;
+}		
 
 /* body {
 	margin: 0;
@@ -279,5 +277,10 @@ img[src$=\".svg\"] {
 	margin: 10px auto;
 	height: 140px
 }
+
+.checklist {
+  display: table;
+  }
+
 */
 
