@@ -1,4 +1,14 @@
-body {
+.checklist {
+  display: table;
+  }
+
+ .LoremTable li{
+ 	display: table;
+ }
+
+
+
+/* body {
 	margin: 0;
 	font-size: 16px;
 	font-family: \"Arial\", sans-serif
@@ -269,3 +279,5 @@ img[src$=\".svg\"] {
 	margin: 10px auto;
 	height: 140px
 }
+*/
+
