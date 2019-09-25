@@ -1,10 +1,9 @@
-.armorList img {
+.armorList img{
 	height: 50px;
+	display: table-row-group;
 }
 
-img {
-	height: 50px;
-}		
+
 
 /* body {
 	margin: 0;
