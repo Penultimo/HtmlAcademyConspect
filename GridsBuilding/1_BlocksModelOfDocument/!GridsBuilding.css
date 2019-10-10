@@ -51,3 +51,7 @@ h2
 }
 
 
+.border-example {
+	border: 3px dotted red;
+}
+
